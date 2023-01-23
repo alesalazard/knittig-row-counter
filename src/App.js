@@ -18,23 +18,24 @@ function App() {
   }
   return (
     <div className="App">
-        <h1>Knitting Row Counter</h1>
-        <Counter
-          clickNum={numRows} />
-        <div className='button-container'>
-          <Button 
-            isAdd={true}
-            clickHandler={clickHandler}
-            text='Add Row' />
-          <Button 
-            isAdd={false}
-            clickHandler={returnHandler}
-            text='Return Row'/>
-          <button onClick={resetHandler}
-            className='reset'>
-              Reset
-          </button>
+      <h1>Knitting Rows Counter</h1>
+      <Counter
+        clickNum={numRows} />
+      <div className='button-container'>
+        <Button 
+          isAdd={true}
+          clickHandler={clickHandler}
+          text='Add Row' />
+        <Button 
+          isAdd={false}
+          clickHandler={returnHandler}
+          text='Return Row'/>
+        <button onClick={resetHandler}
+          className='reset'>
+            Reset
+        </button>
       </div>
+      <footer className='footer'>Created with ღ by AleSalazarD</footer>
     </div>
   );
 }

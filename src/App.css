@@ -33,3 +33,24 @@
   h1 {
     font-size: 70px;
   }
+
+  footer {
+    background-color:azure;
+    margin-top: 8%;
+    text-align: right;
+    padding: 30px;
+    width: 100%;
+    height: 70px;
+    color: #523e74;
+  }
+
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    footer {
+      margin-top: 110%;
+      width: 140%;
+    }
+  }
