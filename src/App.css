@@ -6,7 +6,7 @@
   
   html,
   body {
-    background-color: #1b1b32;
+    background-color: #523e74;
     color: azure;
   }
   
@@ -16,11 +16,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 20px;
     font-family: Lato, sans-serif;
   }
 
-.main-container {
+.button-container {
     height: 350px;
     min-width: 600px;
     display: flex;
@@ -28,4 +28,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  h1 {
+    font-size: 70px;
   }
