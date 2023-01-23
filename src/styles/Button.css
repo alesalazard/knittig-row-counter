@@ -24,5 +24,8 @@ button:hover {
 }
 
 .reset {
-  background-color: rgb(58, 50, 84);
+  background-color: rgb(120, 84, 240);
+  font-size: 20px;
+  width: 90px;
+  border-radius: 80%;
 }

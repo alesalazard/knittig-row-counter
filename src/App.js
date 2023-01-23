@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Knitting Row Counter</h1>
+        <h1>Knitting Row Counter</h1>
         <Counter
           clickNum={numRows} />
         <div className='button-container'>
@@ -30,10 +30,10 @@ function App() {
             isAdd={false}
             clickHandler={returnHandler}
             text='Return Row'/>
-            <button onClick={resetHandler}
+          <button onClick={resetHandler}
             className='reset'>
               Reset
-            </button>
+          </button>
       </div>
     </div>
   );
