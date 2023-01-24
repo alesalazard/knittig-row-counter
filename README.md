@@ -1,4 +1,6 @@
-# knittig-row-counter
+# https://knitting-rows-counter.netlify.app/
+
+
 ![tejido y contador de vueltas](./src/images/knitting%20row.jpg)
 
 Esta aplicación realizada con React y JavaScript consta de tres botones que permiten a la persona usuaria contar las vueltas durante el tejido. 
@@ -9,4 +11,6 @@ Su sencilla interfaz hace que cualquier persona pueda entender su funcionamiento
 ![App](./src/images/aplication.jpg)
 
 Realizada con <3 Por Ale Salazar, inspirada en el curso de freeCodeCamp. Gracias a Estefanía Cassingena.
+
+
 favicon icon from <a href="https://www.flaticon.com/free-icons/crochet" title="crochet icons">Crochet icons created by Becris - Flaticon</a>
